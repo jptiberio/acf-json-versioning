@@ -8,8 +8,6 @@
 	 *
 	 */
 
-	include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-
 	if ( is_plugin_active('advanced-custom-fields-pro/acf.php') ) {
 
 		$theme_root = get_template_directory();
